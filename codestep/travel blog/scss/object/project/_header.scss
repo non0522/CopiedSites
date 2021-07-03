@@ -1,0 +1,24 @@
+.p-header {
+    width   : 100%;
+    position: fixed;
+    top     : 0;
+    background: white;
+    &__nav {
+        font-size      : 12px;
+        padding        : 10px 10px;
+        display        : flex;
+        justify-content: space-between;
+        color          : #fff;
+        background     : #333;
+        @include responsive(tab){
+            font-size      : 14px;
+            justify-content: left;
+            padding        : 10px 20px;
+        }
+        li {
+            @include responsive(tab) {
+                padding-right: 50px;
+            }
+        }
+    }
+}

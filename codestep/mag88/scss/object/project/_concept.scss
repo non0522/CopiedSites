@@ -1,0 +1,15 @@
+.p-concept {
+    width: 120%;
+    height: 80vh;
+    position: relative;
+    left: -10%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/fashion.jpg);
+    padding: 40px 0;
+
+    &__desc {
+        padding: 2rem;
+    }
+
+}

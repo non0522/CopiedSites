@@ -1,0 +1,31 @@
+.p-about {
+    display: flex;
+    flex-direction: column;
+    @include tab {
+        flex-direction: row;
+    }
+
+    &__content {
+        width: 30%;
+        order: 2;
+        margin: 40px 20px;
+        @include tab {
+            margin: 200px 40px 0 40px;
+        }
+        &__inner {
+            padding: 40px 0;
+            line-height: 2;
+        }
+
+    }
+    &__bg {
+        width: 60%;
+        height: 45vh;
+        background-image: url(/img/about.jpg);
+        background-size: cover;
+        order: 1;
+        @include tab {
+            margin-bottom: 200px;
+        }
+    }
+}

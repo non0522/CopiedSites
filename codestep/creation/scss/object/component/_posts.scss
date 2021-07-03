@@ -1,0 +1,10 @@
+.c-posts {
+    padding: 20px 20px;
+    // line-height: 1.5;
+    & dt {
+        border-right: black 1px solid;
+        margin-right: 20px;
+        padding: 10px;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,20 @@
+.p-footer {
+    padding: 40px 20px 20px 20px; 
+    background: white;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        // align-items: center;
+        @include tab {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__title {
+        padding-bottom: 10px;
+        
+    }
+}

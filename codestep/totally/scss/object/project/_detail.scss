@@ -1,0 +1,19 @@
+.p-detail {
+    margin: 16px;
+    &__title {
+        font-weight: bold;
+        font-size: 0.9rem;
+        border-top: gray .5px solid;
+        border-bottom: gray 1px solid;
+        padding: 16px 0;
+    }
+    &__text {
+        padding: 16px 0;
+
+        & p {
+            font-size: 12px;
+            padding: 16px 0;
+
+        }
+    }
+}

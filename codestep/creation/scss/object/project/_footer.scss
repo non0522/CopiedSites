@@ -1,0 +1,15 @@
+.p-footer  {
+    padding: 50px;
+    background: black;
+    color: white;
+    writing-mode: vertical-rl;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+
+    > .c-link {
+        position: absolute;
+        left: 10px;
+
+    }
+}

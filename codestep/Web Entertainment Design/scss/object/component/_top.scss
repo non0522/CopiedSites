@@ -1,0 +1,13 @@
+.c-top {
+    width: 100%;
+    height: 94vh;
+    margin-bottom: 100px;
+    &__bg{
+        height: 100%;
+        width: 100%;
+        background-image: url(/img/mainvisual.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+}

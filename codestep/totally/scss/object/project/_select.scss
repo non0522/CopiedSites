@@ -1,0 +1,32 @@
+.p-select {
+    border-collapse: collapse;
+    font-size: 10px;
+    text-align: center;
+    
+    &__table {
+        margin-bottom: 20px;
+        width: 100%;    
+        & th, td {
+            border-right: solid 1px;
+            border-bottom: solid 1px ;
+            padding: 10px 30px;
+        }
+    }
+
+    &__submit {
+
+    }
+}
+.quantity_s {
+    appearance: menu;
+}
+.quantity {
+    width: 200px;
+}
+.p-sizes__list{
+    width: 100%;
+    border-collapse: collapse;
+}
+select {
+    width: 100%;
+}

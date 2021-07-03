@@ -1,0 +1,13 @@
+.p-article {
+    @include responsive(tab) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    }
+    &__item {
+        padding: 20px 0;
+
+        > li {
+            padding-bottom: 60px;
+        }
+    }
+}

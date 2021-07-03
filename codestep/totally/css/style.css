@@ -1,0 +1,160 @@
+html {
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.c-button {
+  padding: 20px;
+  display: block;
+  color: white;
+  background-color: gray;
+  width: 100%;
+}
+
+.p-detail {
+  margin: 16px;
+}
+
+.p-detail__title {
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-top: gray .5px solid;
+  border-bottom: gray 1px solid;
+  padding: 16px 0;
+}
+
+.p-detail__text {
+  padding: 16px 0;
+}
+
+.p-detail__text p {
+  font-size: 12px;
+  padding: 16px 0;
+}
+
+.p-select {
+  border-collapse: collapse;
+  font-size: 10px;
+  text-align: center;
+}
+
+.p-select__table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.p-select__table th, .p-select__table td {
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  padding: 10px 30px;
+}
+
+.quantity_s {
+  -webkit-appearance: menu;
+     -moz-appearance: menu;
+          appearance: menu;
+}
+
+.quantity {
+  width: 200px;
+}
+
+.p-sizes__list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+select {
+  width: 100%;
+}
+
+.p-header {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.p-header__title {
+  width: 110px;
+  margin: 0 auto 30px;
+}
+
+.p-header__gnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p-gnav__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.p-gnav__main li {
+  padding: 5px;
+}
+
+.p-gnav__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.p-gnav__contact li {
+  padding: 5px;
+}
+
+.p-sizes__list {
+  margin-bottom: 20px;
+}
+
+.p-sizes__list th, .p-sizes__list td {
+  border: solid 1px;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=style.css.map */

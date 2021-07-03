@@ -1,0 +1,27 @@
+.p-service {
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        
+        & li {
+            display: flex;
+            flex-direction: row-reverse;
+            // width: 100%;
+            height: auto;
+            margin-bottom: 100px;
+            
+        }
+        &__img {
+            margin: 100px 0 0 40px;
+            position: relative;
+
+            > img{
+                width: 90%;
+                
+            }
+        } 
+    }
+
+}

@@ -1,0 +1,28 @@
+.p-info {
+    padding: 60px 0;
+    background: gray;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.c-card {
+    display: flex;
+
+    &__img {
+        width: 50%;
+        object-fit: cover;
+        // background-position: center;
+        
+
+    }
+
+    &__inner {
+        padding: 0 20px;
+        &__desc {
+            padding-bottom: 1rem;
+        }
+    }
+}

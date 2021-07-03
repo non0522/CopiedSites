@@ -1,0 +1,16 @@
+.c-table {
+    padding-top: 40px;
+    font-size: 14px;
+
+    &__subject {
+        font-weight: normal;
+        line-height: 2;
+
+    }
+
+    &__desc {
+        padding-left: 16px;
+        padding-bottom: 20px;
+
+    }
+}

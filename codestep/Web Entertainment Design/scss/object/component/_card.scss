@@ -1,0 +1,23 @@
+.c-card {
+    margin-bottom: 40px;
+    @include tab {
+        width: 90%;
+        margin: 0 auto;
+    }
+    &__desc {
+        margin-left: 16px;
+        padding-bottom: 16px;
+        position: relative;
+        font-size: 14px;
+        font-weight: bold;
+        &::before {
+            content: "";
+            width: 8px;
+            height: 1px;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            left: -18px;
+        }
+    }
+}

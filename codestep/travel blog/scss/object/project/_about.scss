@@ -1,0 +1,14 @@
+.p-about {
+    font-size: .9rem;
+    margin-bottom: 60px;
+    &__text {
+        margin-bottom: 20px;
+    }
+    &__list {
+        margin-bottom: 20px;
+        line-height: 2;
+        & li::before {
+            content: '▶︎';
+        }
+    }
+}

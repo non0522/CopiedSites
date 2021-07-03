@@ -1,0 +1,13 @@
+.p-archive {
+    margin-bottom: 120px;
+    &__list {
+        li {
+            padding: 28px;
+            border-top: 1px black solid;
+        }
+        li:last-child {
+            border-bottom: 1px black solid;
+        }
+
+    }
+}

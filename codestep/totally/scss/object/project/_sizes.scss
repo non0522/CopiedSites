@@ -1,0 +1,11 @@
+.p-sizes {
+
+    
+    &__list {
+        margin-bottom: 20px;
+        & th, td {
+            border: solid 1px;
+            padding: 10px 30px;
+        }
+    }
+}

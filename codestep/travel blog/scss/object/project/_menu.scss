@@ -1,0 +1,14 @@
+.p-menu {
+    font-size: .85rem;
+    margin-bottom: 60px;
+    &__list {
+        li {
+            padding: 20px;
+            border-top: 1px black solid;
+        }
+        li:last-child {
+            border-bottom: 1px black solid;
+        }
+
+    }
+}

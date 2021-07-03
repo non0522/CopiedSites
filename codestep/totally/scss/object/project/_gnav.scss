@@ -1,0 +1,17 @@
+.p-gnav {
+    &__main {
+        display: flex;
+        font-size: 0.7rem;
+        & li {
+            padding: 5px;
+        }
+    }
+    &__contact {
+        display: flex;
+        font-size: 0.7rem;
+        & li {
+            padding: 5px;
+        }
+    }
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascriptpractice</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background: skyblue;
+            cursor: pointer;
+            transition: 1s;
+            margin: 5px 5px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .circle {
+            background: pink;
+            border-radius: 50%;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        'use strict'
+
+        const num = 100;
+        const winner = Math.floor(Math.random() * num); // 0 - 4
+
+        for (let i = 0; i < num; i++) {
+        // i はカウンター。i が0から始まって、10より小さい間は i を1ずつ増やしていく。
+            const div = document.createElement('div');
+            // divタグの作成
+            div.classList.add('box')
+            // divにclass.boxを追加
+            div.textContent = i;
+            // divの中身のテキストを i にしなさい
+    
+            div.addEventListener('click', () => {
+                
+                div.classList.toggle('circle')
+            })
+            document.body.appendChild(div);
+            // bodyの子要素にdivを追加しなさい
+
+        }
+
+    </script>
+</body>
+</html>

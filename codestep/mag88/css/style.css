@@ -1,0 +1,159 @@
+html {
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.l-main {
+  margin: 0 5%;
+  text-align: center;
+}
+
+.c-link {
+  font-size: 0.75rem;
+  border: 1px black solid;
+  padding: 16px 40px;
+}
+
+.p-info {
+  padding: 60px 0;
+  background: gray;
+}
+
+.p-info__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.c-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-card__img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.c-card__inner {
+  padding: 0 20px;
+}
+
+.c-card__inner__desc {
+  padding-bottom: 1rem;
+}
+
+.p-magazine {
+  margin-bottom: 80px;
+}
+
+.p-magazine__desc {
+  padding-bottom: 2rem;
+}
+
+.p-magazine__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.p-magazine__list__inner {
+  top: 10px;
+  left: 10px;
+  padding: 0 10px;
+}
+
+.p-magazine__list__inner a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.p-magazine__list__inner a dl {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: chartreuse;
+}
+
+.p-header {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.p-header__logo {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 10rem;
+}
+
+.p-header__logo span {
+  display: none;
+}
+
+.p-header__bg {
+  background-image: url(/images/mainvisual.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.p-concept {
+  width: 120%;
+  height: 80vh;
+  position: relative;
+  left: -10%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/fashion.jpg);
+  padding: 40px 0;
+}
+
+.p-concept__desc {
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

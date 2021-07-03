@@ -1,0 +1,31 @@
+.p-magazine {
+    margin-bottom: 80px;
+    &__title {
+        // max-width: 60%;
+    }
+    &__desc {
+        // width: 55%;
+        // margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    &__list {
+        display: flex;
+        &__inner {
+            top: 10px;
+            left: 10px;
+            padding: 0 10px;
+            & a {
+                display: block;
+                height: 100%;
+                width: 100%;
+                position: relative;
+                & dl {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 10px;
+                    background: chartreuse;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.p-post {
+    &__title {
+        font-size: 1.75rem;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    &__date {
+        display: flex;
+        > dd {
+            padding: 0 20px 20px 0;
+        }
+    }
+    &__img {
+
+        // text-align: center;
+        > img {
+            padding-bottom: 20px;
+        }
+        > figcaption {
+            font-size: 1.2rem;
+            width: 80%;
+            margin: 0 auto 20px;
+        }
+        > a {
+            display: block;
+            text-decoration: underline;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}

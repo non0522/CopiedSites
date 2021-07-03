@@ -1,0 +1,26 @@
+$x-large: 1280px; // 特大サイズ
+$pc: 1200px; // 大サイズ
+$tab: 577px;  // 中サイズ
+$sp: 767px;  // 少サイズ
+
+@mixin x-large{
+  @media (max-width: ($x-large)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+

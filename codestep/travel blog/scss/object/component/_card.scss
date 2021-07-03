@@ -1,0 +1,15 @@
+.c-card {
+    // padding         : 20px 0;
+    > * {
+        padding-bottom : 20px;
+    }
+    > figcaption {
+        font-weight    : bold;
+    }
+    > a {
+        display        : block;
+        text-decoration: underline;
+        text-align     : center;
+        font-size      : 12px;
+    }
+}

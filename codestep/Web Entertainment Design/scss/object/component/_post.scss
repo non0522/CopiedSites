@@ -1,0 +1,22 @@
+.c-post {
+    margin-top: 40px;
+    padding-right: 90px;
+    padding-left: 20px;
+    border-right: black 1px solid ;
+
+    &__heading {
+        display: flex;
+        padding-bottom: 20px;
+
+        &__time {
+            padding-right: 20px ;
+        }
+
+        &__notice {
+            background: black;
+            color: white;
+            font-size: 0.7rem;
+            padding: 0 10px;
+        }
+    }
+}

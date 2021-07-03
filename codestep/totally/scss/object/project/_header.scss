@@ -1,0 +1,14 @@
+.p-header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        width: 110px;
+        margin: 0 auto 30px;
+
+    }
+    &__gnav {
+        display: flex;
+        justify-content: space-between;
+    }
+}

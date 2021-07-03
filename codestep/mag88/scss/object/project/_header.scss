@@ -1,0 +1,19 @@
+.p-header {
+    margin-bottom: 80px;
+    position: relative;
+    &__logo {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 10rem;
+        & span {
+            display: none;
+        }
+    }
+    &__bg {
+        background-image: url(/images/mainvisual.jpg);
+        // position: absolute;
+        height: 100vh;
+        background-size: cover;
+    }
+}

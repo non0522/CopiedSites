@@ -1,0 +1,175 @@
+// COLOR DEFINITION
+// ================================================
+
+
+// GENERAL STYLING
+// ================================================
+html {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+// COMMON
+// ================================================ 
+p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+// img {
+//   width: 100%;
+// }
+
+.container {
+ width: 600px;
+ margin: 0 auto; 
+ overflow: hidden;
+}
+
+// header
+// =============================================
+
+#header {
+  & h1 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  & .menu {
+    background: #f39800;
+    margin-bottom: 30px;
+    font-size: 12px;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+
+    & > li {
+      float: left;
+      width: 150px;
+      text-align: center;
+    }
+    & a {
+      padding: 10px 0;
+      color: #fff;
+      display: block;
+      &:hover {
+        background: #ffc35c;
+      }
+    }
+  }
+}// /#header
+
+
+// posts
+// ============================================
+#posts {
+  float: left;
+  width: 435px;
+
+  & .post {
+    margin-bottom: 30px;
+
+    & .post-header{
+      margin-bottom: 15px;
+
+
+      & h2 {
+        font-size:16px;
+        font-weight: bold;
+
+      }
+      & .post-meta {
+        font-size: 12px;
+        padding: 7px 0;
+        color: #555;
+
+      }
+    }
+  }
+  & .post-content {
+    overflow: hidden;
+
+    & .post-image {
+      float: left;
+      width: 115px;
+
+    }
+    
+    & .post-body {
+      margin-left: 115px;
+
+    }
+  }
+
+}
+// navigation
+// ============================================
+.navigation {
+  overflow: hidden;
+  padding: 10px 0;
+  font-size: 12px;
+  margin-bottom: 15px;
+
+  & .prev {
+    float: left;
+    width: 200px;
+  }
+  & .next {
+    float: right;
+    width: 200px;
+    text-align: right;
+  }
+}
+
+
+
+// sidebar
+// ============================================
+#sidebar {
+  float: right;
+  width: 150px;
+
+  & .widget {
+    margin-bottom: 25px;
+
+    & h3 {
+      font-weight: bold;
+      padding-bottom: 7px;
+
+    }
+
+    & li {
+      line-height: 1.8;
+
+    }
+  }
+}
+
+
+
+// footer
+// ============================================
+#footer {
+  padding: 15px 0;
+  font-size: 12px;
+  color: #aaa;
+  border-top: 1px solid #ccc;
+}

@@ -1,0 +1,16 @@
+.c-shade {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255, 255, 0, 0.603);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    &__text {
+        // background-color: yellowgreen;
+        line-height: 100px;
+
+
+    }
+}
